@@ -14,7 +14,7 @@ import { MatToolbarModule } from "@angular/material/toolbar";
 import { MatExpansionModule } from "@angular/material/expansion";
 import { HeaderComponent } from "./header/header.component";
 import { PostListComponent } from "./posts/post-list/post-list.component";
-import { ButtonModule } from "primeng/button";
+import {HttpClientModule} from "@angular/common/http";
 
 @NgModule({
   declarations: [
@@ -34,6 +34,7 @@ import { ButtonModule } from "primeng/button";
     MatToolbarModule,
     MatExpansionModule,
     NoopAnimationsModule,
+    HttpClientModule,
 
   ],
   providers: [],
