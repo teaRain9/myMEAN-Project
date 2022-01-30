@@ -5,7 +5,7 @@ const mongoose = require('mongoose')
 const Post = require('./models/post')
 
 const app = express();
-const uri = "mongodb+srv://adel:9UpSQ1iH6Xp5ls71@mean-practice.ingw5.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+const uri = "mongodb+srv://adel:f1k8v9ADdIRrqnco@mean-practice.ingw5.mongodb.net/admin?retryWrites=true&w=majority"
 mongoose.connect(uri)
   .then(() => {
     console.log('Connected to database!');
